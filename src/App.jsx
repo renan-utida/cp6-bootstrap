@@ -1,5 +1,6 @@
 import Navbars from "./components/Navbars"
 import CarouselsImagens from "./components/CarouselsImagens"
+import Destaques from "./components/Destaques"
 import Buttons from "./components/Buttons"
 import Cards from "./components/Cards"
 import Tables from "./components/Tables"
@@ -11,26 +12,11 @@ function App() {
 
   return (
     
-    <div className="container-fluid">
+    <div className="container-fluid m-0 p-0">
         <Navbars/>
         <CarouselsImagens/>
-        <Buttons/>
+        <Destaques/>
         <Cards/>
-        <div className="row">
-            <div className="col-md-6 col-lg-4 col-xl-3 text-warning bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-            <div className="col-md-6 col-lg-4 col-xl-3 bg-primary border border-white border-2 p-2">Coluna 1</div>
-        </div>
-        <Buttons/>
         <Tables/>
         <Buttons/>
         <Modal/>

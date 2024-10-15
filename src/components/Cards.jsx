@@ -3,9 +3,20 @@
 function Cards(){
 
     return(
-        <>
-            <h1>Cards</h1>
-        </>
+        <section>
+            <div>
+                <h2>Camisetas Epic Heroes</h2>
+            </div>
+            <div>
+                <h2>Chaveiros Epic Heroes</h2>
+            </div>
+            <div>
+                <h2>Miniaturas Epic Heroes</h2>
+            </div>
+            <div>
+                <h2>Revistas Epic Heroes</h2>
+            </div>
+        </section>
     )
 }
 
