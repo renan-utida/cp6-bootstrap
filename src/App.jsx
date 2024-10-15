@@ -11,7 +11,7 @@ function App() {
 
   return (
     
-    <div className="container-fluid m-0 p-0 bg-secondary-subtle">
+    <>
         <Navbars/>
         <CarouselsImagens/>
         <Destaques/>
@@ -19,7 +19,7 @@ function App() {
         <Tables/>
         <Desconto/>
         <Footer/>
-    </div>
+    </>
   )
 }
 

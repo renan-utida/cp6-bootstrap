@@ -9,6 +9,8 @@ import ChaveiroCarousel2 from '../assets/chaveiro-marvel.png';
 import MiniaturaCarousel2 from '../assets/miniatura-dc.png';
 import RevistasCarousel2 from '../assets/revistas-marvel.png';
 
+import './../index.css'
+
 function CarouselsImagens() {
   return (
     <section>
