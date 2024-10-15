@@ -4,28 +4,25 @@ function Footer() {
     return (
         <footer className="mw-100 text-center bg-dark text-light border-top border-danger border-5">
             <div className='container pt-4'>
-                <a href="" className='text-decoration-none'>
+                <a href="#home" className='text-decoration-none'>
                     <h2 className='text-danger fst-italic fw-bold'>Epic Heroe Store</h2>
                 </a>
                 <p className='fst-italic fs-5 text-white'>Obrigado pela sua ilustre presença aqui conosco!</p>
                 <div className="py-4">
                     <h3 className='text-primary fw-bold pb-3'>Follow Us</h3>
-                    <a href="#!" className="icon-hover m-1">
+                    <a href="https://www.facebook.com/renan.diasutida" className="icon-hover m-1">
                         <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#!" className="icon-hover m-1">
-                        <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#!" className="icon-hover m-1">
+                    <a href="mailto:renandiutida@gmail.com" className="icon-hover m-1">
                         <i className="fab fa-google"></i>
                     </a>
-                    <a href="#!" className="icon-hover m-1">
+                    <a href="https://www.instagram.com/_r_d_u/" className="icon-hover m-1">
                         <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="#!" className="icon-hover m-1">
+                    <a href="https://www.linkedin.com/in/renan-dias-utida-1b1228225/" className="icon-hover m-1">
                         <i className="fab fa-linkedin"></i>
                     </a>
-                    <a href="#!" className="icon-hover m-1">
+                    <a href="https://github.com/renan-utida" className="icon-hover m-1">
                         <i className="fab fa-github"></i>
                     </a>
                 </div>

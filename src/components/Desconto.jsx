@@ -9,7 +9,7 @@ function Desconto(){
     const handleShow = () => setShow(true);
 
     return(
-        <section className='mt-5 mb-4  container mw-100 text-center fst-italic'>
+        <section id='modal' className='mt-5 mb-5  container mw-100 text-center fst-italic'>
             <div className='m-2 p-4 bg-primary-subtle border border-primary border-4 rounded-4'>
                 <h2 className='fw-bold'>Você chegou até o final da página!</h2>
                 <p>Clique no botão e receba um cupom de Frete Grátis!</p>

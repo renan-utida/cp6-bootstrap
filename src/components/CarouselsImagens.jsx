@@ -13,7 +13,7 @@ import './../index.css'
 
 function CarouselsImagens() {
   return (
-    <section>
+    <section id='home'>
       <Carousel className='carousel-style w-100 position-relative'>
         <Carousel.Item className="carousel-img object-fit-cover">
           <img src={CamisetaCarousel1} alt="Camisetas - Marvel" className='h-100 w-100'/>

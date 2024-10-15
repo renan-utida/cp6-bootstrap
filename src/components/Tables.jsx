@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 function Tables(){
 
     return(
-        <section className='container px-4 mw-100 text-center fst-italic'>
+        <section id='tabelas' className='container px-4 mw-100 text-center fst-italic'>
             <h2 className='fw-bold text-danger pt-5 pb-3'>Tabela de Preços de Produtos</h2>
             <Table striped bordered hover variant="dark" className='mt-4'>
                 <thead>

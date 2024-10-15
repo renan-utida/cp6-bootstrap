@@ -23,7 +23,7 @@ function Cards(){
     return(
         <section className='container my-5 px-4 mw-100 text-center'>
             <h2 className='fw-bold text-danger'>Conheça nossos produtos!</h2>
-            <div className='mw-100'>
+            <div id='camisetas' className='mw-100'>
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Camisetas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
@@ -92,7 +92,7 @@ function Cards(){
                     </div>
                 </div>
             </div>
-            <div className='mw-100'>
+            <div id='chaveiros' className='mw-100'>
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Chaveiros Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
@@ -161,7 +161,7 @@ function Cards(){
                     </div>
                 </div>
             </div>
-            <div className='mw-100'>
+            <div id='miniaturas' className='mw-100'>
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Miniaturas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
@@ -230,7 +230,7 @@ function Cards(){
                     </div>
                 </div>
             </div>
-            <div className='mw-100'>
+            <div id='revistas' className='mw-100'>
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Revistas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>

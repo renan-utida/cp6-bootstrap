@@ -14,17 +14,17 @@ function Navbars() {
             <Nav className="ms-auto">
               <Nav.Link href="#home" className='ms-4 fw-bold'>Home</Nav.Link>
               <NavDropdown title="Produtos" id="basic-nav-dropdown" className='ms-4 fw-bold'>
-                <NavDropdown.Item href="#action/3.1">Camisetas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Chaveiros</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Miniaturas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Revistas</NavDropdown.Item>
+                <NavDropdown.Item href="#camisetas">Camisetas</NavDropdown.Item>
+                <NavDropdown.Item href="#chaveiros">Chaveiros</NavDropdown.Item>
+                <NavDropdown.Item href="#miniaturas">Miniaturas</NavDropdown.Item>
+                <NavDropdown.Item href="#revistas">Revistas</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.5">
+                <NavDropdown.Item href="#camisetas">
                   Todos os Produtos
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link" className='ms-4 fw-bold'>Tabelas</Nav.Link>
-              <Nav.Link href="#link" className='ms-4 fw-bold'>Sobre</Nav.Link>
+              <Nav.Link href="#tabelas" className='ms-4 fw-bold'>Tabelas</Nav.Link>
+              <Nav.Link href="#modal" className='ms-4 fw-bold'>Modal</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
