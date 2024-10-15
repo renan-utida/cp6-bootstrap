@@ -21,7 +21,7 @@ import CardRevista4 from '../assets/card-revista4.png'
 function Cards(){
 
     return(
-        <section className='container my-5 ps-3 mw-100 text-center'>
+        <section className='container my-5 px-4 mw-100 text-center'>
             <h2 className='fw-bold text-danger'>Conheça nossos produtos!</h2>
             <div className='mw-100'>
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Camisetas Epic Heroes</h3>

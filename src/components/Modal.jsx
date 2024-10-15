@@ -3,9 +3,10 @@
 function Modal(){
 
     return(
-        <>
-            <h1>Modal</h1>
-        </>
+        <section>
+            <h2>Você chegou até o final da página!</h2>
+            <p>Clique no botão e receba um cupom de Frete Grátis!</p>
+        </section>
     )
 }
 
