@@ -12,7 +12,7 @@ function App() {
 
   return (
     
-    <div className="container-fluid m-0 p-0">
+    <div className="container-fluid m-0 p-0 bg-secondary-subtle">
         <Navbars/>
         <CarouselsImagens/>
         <Destaques/>
