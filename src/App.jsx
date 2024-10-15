@@ -3,7 +3,7 @@ import CarouselsImagens from "./components/CarouselsImagens"
 import Destaques from "./components/Destaques"
 import Cards from "./components/Cards"
 import Tables from "./components/Tables"
-import Modal from "./components/Modal"
+import Desconto from "./components/Desconto"
 import Footer from "./components/Footer"
 
 
@@ -17,7 +17,7 @@ function App() {
         <Destaques/>
         <Cards/>
         <Tables/>
-        <Modal/>
+        <Desconto/>
         <Footer/>
     </div>
   )
