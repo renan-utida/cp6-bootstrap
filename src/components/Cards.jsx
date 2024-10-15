@@ -27,7 +27,7 @@ function Cards(){
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Camisetas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardCamiseta1} variant="top" alt="Card Camiseta Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Camiseta Preta Marvel</Card.Title>
@@ -36,14 +36,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$200,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$169,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$169,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardCamiseta2} variant="top" alt="Card Camiseta Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Camiseta Cinza Marvel</Card.Title>
@@ -52,14 +52,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$240,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$120,00</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$120,00</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardCamiseta3} variant="top" alt="Card Camiseta Naruto/anime" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Camiseta Branca Naruto</Card.Title>
@@ -68,14 +68,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$150,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$120,00</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$120,00</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardCamiseta4} variant="top" alt="Card Camiseta Naruto/anime" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Camiseta Preta Naruto</Card.Title>
@@ -84,7 +84,7 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$200,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$140,00</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$140,00</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
@@ -96,7 +96,7 @@ function Cards(){
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Chaveiros Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardChaveiro1} variant="top" alt="Card Chaveiro Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Chaveiros - Marvel</Card.Title>
@@ -105,14 +105,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$60,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$39,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$39,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardChaveiro2} variant="top" alt="Card Chaveiro Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Chaveiros - Marvel</Card.Title>
@@ -121,14 +121,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$60,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$29,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$29,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardChaveiro3} variant="top" alt="Card Chaveiro DC - Liga da Justica" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Chaveiros - DC Heroes</Card.Title>
@@ -137,14 +137,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$75,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$49,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$49,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardChaveiro4} variant="top" alt="Card Chaveiro DC - Liga da Justica" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Chaveiros - DC Heroes</Card.Title>
@@ -153,7 +153,7 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$80,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$59,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$59,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
@@ -165,7 +165,7 @@ function Cards(){
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Miniaturas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardMiniatura1} variant="top" alt="Card Miniatura Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Miniatura Funko Pop Marvel - Normal</Card.Title>
@@ -174,14 +174,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$400,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$299,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$299,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardMiniatura2} variant="top" alt="Card Miniatura Marvel - Dourada" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Miniatura Funko Pop Marvel - Dourado</Card.Title>
@@ -190,14 +190,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$1000,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$799,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$799,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardMiniatura3} variant="top" alt="Card Miniatura DC - Liga da Justica" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Miniatura Funko Pop DC Heroes - Normal</Card.Title>
@@ -206,14 +206,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$400,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$299,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$299,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2' src={CardMiniatura4} variant="top" alt="Card Miniatura Naruto/Anime" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Miniatura Funko Pop Naruto - Normal</Card.Title>
@@ -222,7 +222,7 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$100,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$69,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$69,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
@@ -234,7 +234,7 @@ function Cards(){
                 <h3 className='text-start pt-4 pb-3 fst-italic fw-bold'>Revistas Epic Heroes</h3>
                 <div className='row mb-5'>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2 px-1' src={CardRevista1} variant="top" alt="Card Revista Homem Aranha" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>2 Revistas Homem Aranha - Marvel</Card.Title>
@@ -243,14 +243,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$50,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$39,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$39,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2 px-1' src={CardRevista2} variant="top" alt="Card Revista Marvel" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>2 Revistas Vingadores - Marvel</Card.Title>
@@ -259,14 +259,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$80,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$55,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$55,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2 px-1' src={CardRevista3} variant="top" alt="Card Revista Naruto" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Revistas Naruto - Versão Especial</Card.Title>
@@ -275,14 +275,14 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$120,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$89,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$89,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className='col-3'>
-                        <Card className='w-auto'>
+                        <Card className='card-hover w-auto shadow-lg border border-1 border-secondary-subtle'>
                             <img className='mt-2 px-1' src={CardRevista4} variant="top" alt="Card Revista DC - Liga da Justica" />
                             <Card.Body>
                                 <Card.Title className='fw-bold text-primary fs-4'>Revistas DC Comics - Versão Retro</Card.Title>
@@ -291,7 +291,7 @@ function Cards(){
                                 </Card.Text>
                                 <div className='row fst-italic'>
                                     <span className='text-decoration-line-through'>R$90,00</span>
-                                    <span className='text-danger fw-bold my-3'>R$59,90</span>
+                                    <span className='text-danger fw-bold my-3 fs-5'>R$59,90</span>
                                 </div>
                                 <Button variant="primary">Comprar</Button>
                             </Card.Body>

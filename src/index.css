@@ -40,6 +40,14 @@
     text-align: justify;
 }
 
+.card-hover {
+    transition: transform 0.3s ease; /* Animação suave */
+}
+
+.card-hover:hover {
+    transform: scale(1.05); /* Aumenta o card em 5% ao passar o mouse */
+}
+
 .icon-hover {
     position: relative;
     border-radius: 50%;
